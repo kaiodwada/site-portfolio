@@ -1,0 +1,81 @@
+/*------Efeitos-------*/
+.zoom {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+
+nav>a:hover {
+  background-color: rgb(108, 79, 46);
+  color: azure;
+}
+
+/*Efeito card*/
+.card {
+  border: 1px solid #3a342e;
+  text-align: center;
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin: 15px;
+}
+
+.card h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  color: #b5a89a;
+}
+
+.site {
+  border: 1px solid #3a342e;
+  padding: 20px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin: 15px;
+}
+
+.site h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.site p {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  color: #b5a89a;
+}
+
+
+/*Efeito de textos*/
+.typography-title-text {
+  color: #deb887;
+  background-color: transparent;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 64px;
+  text-align: center;
+}
+
+.typography,
+a {
+  color: burlywood;
+  font-weight: 100px;
+  font-style: oblique;
+  font-size: 20px;
+  text-decoration: none;
+}
