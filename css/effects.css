@@ -57,7 +57,10 @@ nav>a:hover {
   margin-bottom: 25px;
   color: #b5a89a;
 }
-
+.site > img{
+  width: 300px;
+  height: 300px;
+}
 
 /*Efeito de textos*/
 .typography-title-text {

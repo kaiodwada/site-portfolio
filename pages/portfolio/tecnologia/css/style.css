@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #c4c4c4;
+}
+#header {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(58, 94, 255);
+    margin-bottom: 20px;
+}
+#menu>a {
+    text-decoration: none;
+}
+#logo>h1 {
+    font-size: 60px;
+}
+.white, #menu > a {
+    color: white;
+}
+#menu {
+    margin: 10px;
+    padding: 10px;
+}
+#menu > a{
+    padding: 10px;
+}
+#menu > a:hover{
+    background-color: white;
+    color: black;
+}
+#logo {
+    margin-top: 10px;
+}
+#content {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+}
+.post{
+    display: flex;
+    flex-flow: column wrap;
+    margin: 20px;
+    gap: 5px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 1000px;
+}
+.post > h2, #footer, .content-right{
+    color: rgb(0, 75, 237);
+}
+.data-post {
+    border-bottom: 1px solid black;
+}
+.img-post {
+    width: 700px;
+}
+.post>a,.post-right > a {
+    color: rgb(0, 140, 255);
+}
+.content-right{
+    background-color: white;
+    padding: 20px;
+}
+.content-right > div,a{
+    padding: 5px;
+}
+.content-right > h3{
+    padding: 10px;
+    background-color: rgb(198, 194, 194);
+    color: rgb(99, 65, 65);
+}
+#footer{
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: large;
+}
